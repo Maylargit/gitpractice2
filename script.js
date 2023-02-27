@@ -5,13 +5,13 @@ let greeting;
 let colour;
 if (hour<12) {
     greeting = "Good morning";
-    colour = "#8aff67";
+    colour = "#4bbdbd";
 } else if (hour<17) {
     greeting = "Good afternoon"
-    colour = "#fffc67";
+    colour = "#bd4b4b";
 }else {
     greeting = "Good evening"
-    colour = "#4a88cf";
+    colour = "#abacb8";
 }
 salute.innerHTML = greeting;
 somepart.style.backgroundColor = colour;
